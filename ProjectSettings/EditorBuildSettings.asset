@@ -6,15 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main Menu.unity
-    guid: d71b276ff48a7934e9a67c028f8f1cb1
+    path: Assets/Scenes/UI.unity
+    guid: 42de8be28b9ff3144927c130288d4159
   - enabled: 1
-    path: Assets/Scenes/EasyModeScene.unity
-    guid: 250aec85ccfe905498225404537c10cc
+    path: Assets/Scenes/mainGame.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/MediumModeScene.unity
-    guid: 5b120249fa4469941b5a4670977ac5eb
-  - enabled: 1
-    path: Assets/Scenes/HardModeScene.unity
-    guid: 9538fe017ea82994098471e00556a3c3
-  m_configObjects: {}
+    path: Assets/Scenes/gameOver.unity
+    guid: 91b65c9b022fc6748b8a7c0bce0fb528
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bf642a5f501c8374d82d28492a3d0361, type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: acf8eaaf4c22a204084a198a6913dd93, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 45fe4db36930a9247af61b3105e21f8d, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c7f25ff89c3e38e4ba87ba4e4477ff46, type: 2}
